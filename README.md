@@ -114,5 +114,5 @@ API 6 :
        Failure:
            Status code: 400                    
 
-
+https://github.com/user-attachments/assets/f78f1d40-8a72-45df-af9d-313966a8ed89
            
