@@ -105,7 +105,7 @@ API 5 :
            Status code: 200
            Body: Transaction deleted successfully
            Screenshot : 
-              https://github.com/user-attachments/assets/846470d3-0fa8-4d63-93d0-f6c6079aa2fa
+              https://github.com/user-attachments/assets/6c3a39ed-41e2-483a-8460-7fbc69ed15f4
               
       Failure:
            Status code: 400
