@@ -1,0 +1,39 @@
+
+POST http://localhost:3000/transactions/
+Content-Type: application/json
+
+ {      "id": 11, 
+        "transactionType": "Income",
+        "category": "Freelance",
+        "amount": 500,
+        "transactionDate": "2024-6-21",
+        "description": "Freelance project payment"
+}
+
+###
+
+GET http://localhost:3000/transactions/
+
+###
+
+GET http://localhost:3000/transactions/11/
+
+###
+
+PUT http://localhost:3000/transactions/10/
+Content-Type: application/json
+
+{     
+        "transactionType": "Income",
+        "category": "Freelance",
+        "amount": 400,
+        "transactionDate": "2024-9-21",
+        "description": "Freelance project payment"
+}
+
+###
+DELETE http://localhost:3000/transactions/11/
+
+###
+
+GET http://localhost:3000/summary/
